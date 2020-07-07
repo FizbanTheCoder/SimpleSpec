@@ -3,6 +3,7 @@
 
 @smoke
 Scenario: Perform Login of EA Application site
+
 	Given I launch the application
 	When I click login link
 	And  I enter the following details
