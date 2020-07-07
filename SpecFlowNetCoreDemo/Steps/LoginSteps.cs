@@ -17,6 +17,7 @@ namespace SpecFlowNetCoreDemo.Steps
             ScenarioContext.Current.Pending();
         }
 
+
         [When(@"I click login link")]
         public void WhenIClickLoginLink()
         {
